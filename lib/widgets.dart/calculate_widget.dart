@@ -22,27 +22,27 @@ class CalculateWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
-        onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context, ) => ResultsScreen(age: _age, height: _value, weight: _weight, gender: _selectedGender,)));
-        },
-        child: Container(
-            margin: EdgeInsets.symmetric(horizontal: 18),
-            padding: EdgeInsets.symmetric(vertical: 8),
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: Colors.red,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            width: MediaQuery.of(context).size.width,
-            child: Text(
-              "Calculate",
-              style: TextStyle(
-                  color: whiteColor,
-                  fontSize: 36,
-                  fontWeight: FontWeight.bold),
-            )
-            ),
-            
-            );
+    onPressed: () {
+      Navigator.push(context, MaterialPageRoute(builder: (context, ) => ResultsScreen(age: _age, height: _value, weight: _weight, gender: _selectedGender,)));
+    },
+    child: Container(
+        margin: EdgeInsets.symmetric(horizontal: 18),
+        padding: EdgeInsets.symmetric(vertical: 8),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          color: Color(0xFFe94560),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        width: MediaQuery.of(context).size.width,
+        child: Text(
+          "Calculate".toUpperCase(),
+          style: TextStyle(
+              color: whiteColor,
+              fontSize: 36,
+              fontWeight: FontWeight.normal),
+        )
+        ),
+        
+        );
   }
 }
