@@ -9,6 +9,8 @@
 ### Responsive UI for different mobile screens 
 
 ## Screenshots
-<img src="bmi_calculator\assets\screenshots\Screenshot1.png" alt="screenshot1">
-<img src="bmi_calculator\assets\screenshots\Screenshot2.png" alt="screenshot2">
+## Screenshots
+<img src="assets/screenshots/Screenshot1.png" width="250">  &emsp;  <img src="assets/screenshots/Screenshot2.png" width="250">
+
+
 
