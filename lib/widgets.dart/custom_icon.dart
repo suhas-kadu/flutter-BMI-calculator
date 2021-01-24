@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 
@@ -16,7 +17,7 @@ class CustomIcon extends StatelessWidget {
     return Container(
         //padding: EdgeInsets.all(4),
         decoration: BoxDecoration(
-            color: Color(0xFF0f3460),
+            color: darkThemeColor3,
             borderRadius: BorderRadius.circular(50)),
         child: Icon(
           icon,

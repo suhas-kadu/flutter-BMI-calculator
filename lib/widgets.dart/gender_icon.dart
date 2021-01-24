@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -15,10 +16,9 @@ class GenderIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //margin: EdgeInsets.symmetric(horizontal: 4),
       width: MediaQuery.of(context).size.width / 2.5,
       padding: EdgeInsets.all(16),
-      color: Color(0xFF0f3460),
+      color: darkThemeColor3,
       child: Column(
         children: [
           FaIcon(

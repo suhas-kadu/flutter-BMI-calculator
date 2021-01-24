@@ -29,11 +29,12 @@ class _HomePageState extends State<HomePage> {
 
     double width = MediaQuery.of(context).size.width;
 
+    
     return Scaffold(
-      backgroundColor: Color(0xFF1a1a2e),
+      backgroundColor: darkThemeColor1,
       appBar: AppBar(
         title: Text("BMI CALCUATOR", style: GoogleFonts.montserrat(fontWeight: FontWeight.w500)),
-        backgroundColor: Color(0xFF1a1a2e),
+        backgroundColor:darkThemeColor1,
         elevation: 0.0,
         centerTitle: true,
       ),
@@ -78,7 +79,7 @@ class _HomePageState extends State<HomePage> {
             Container(
               margin: EdgeInsets.symmetric(horizontal: 34),
               width: width,
-              color: Color(0xFF16213e),
+              color: darkThemeColor2,
               padding: EdgeInsets.all(16),
               child: Column(
                 children: [
@@ -101,7 +102,7 @@ class _HomePageState extends State<HomePage> {
                       max: 200,
                       value: _value, onChanged: _onChanged,
 
-                      inactiveColor: Color(0xFFe94560),
+                      inactiveColor: darkThemeColor4,
                       activeColor: Colors.red,
                     ),
                   )
@@ -116,7 +117,7 @@ class _HomePageState extends State<HomePage> {
                     width: width / 2.5,
                     //margin: EdgeInsets.symmetric(horizontal: 18, vertical: 16),
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                    color: Color(0xFF16213e),
+                    color: darkThemeColor2,
                     child: Column(
                       children: [
                         Text(
@@ -165,7 +166,7 @@ class _HomePageState extends State<HomePage> {
                     width: width / 2.5,
                     margin: EdgeInsets.symmetric(vertical: 16),
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                    color: Color(0xFF16213e),
+                    color: darkThemeColor2,
                     child: Column(
                       children: [
                         Text(
