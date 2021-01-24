@@ -56,9 +56,9 @@ class ResultsScreen extends StatelessWidget {
     //print("\n$result");
 
     return Scaffold(
-      backgroundColor: Color(0xFF1a1a2e),
+      backgroundColor: darkThemeColor1,
       appBar: AppBar(
-        backgroundColor: Color(0xFF1a1a2e),
+        backgroundColor:darkThemeColor1,
         elevation: 0.0,
         title: Text("BMI CALCULATOR", style: GoogleFonts.montserrat(fontWeight: FontWeight.w500)),
         centerTitle: true,
@@ -83,7 +83,7 @@ class ResultsScreen extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 32),
               padding: EdgeInsets.symmetric(vertical: 16, horizontal: 8),
               width: width,
-              color: Color(0xFF16213e),
+              color:darkThemeColor2,
               child: Column(
                 children: [
                   SizedBox(
@@ -92,7 +92,7 @@ class ResultsScreen extends StatelessWidget {
                   Text(
                     result.toUpperCase(),
                     style: TextStyle(
-                      color: Color(0xFFfcdab7),
+                      color: darkThemeColor5,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                     ),
@@ -110,7 +110,7 @@ class ResultsScreen extends StatelessWidget {
                   Text(
                     "$result BMI range:",
                     style: TextStyle(
-                        color: Color(0xFFfcdab7),
+                        color: darkThemeColor4,
                         fontSize: 20,
                         fontWeight: FontWeight.w500),
                   ),

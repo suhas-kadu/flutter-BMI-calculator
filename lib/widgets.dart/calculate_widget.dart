@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/constants/constants.dart';
 import 'package:bmi_calculator/views/results_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +31,7 @@ class CalculateWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 8),
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: Color(0xFFe94560),
+          color: darkThemeColor4,
           borderRadius: BorderRadius.circular(10),
         ),
         width: MediaQuery.of(context).size.width,
