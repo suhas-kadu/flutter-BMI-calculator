@@ -26,22 +26,23 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     double width = MediaQuery.of(context).size.width;
 
-    
     return Scaffold(
       backgroundColor: darkThemeColor1,
       appBar: AppBar(
-        title: Text("BMI CALCUATOR", style: GoogleFonts.montserrat(fontWeight: FontWeight.w500)),
-        backgroundColor:darkThemeColor1,
+        title: Text("BMI CALCUATOR",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w500)),
+        backgroundColor: darkThemeColor1,
         elevation: 0.0,
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-              child: Column(
+        child: Column(
           children: [
-            SizedBox(height: 30,),
+            SizedBox(
+              height: 30,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -56,6 +57,7 @@ class _HomePageState extends State<HomePage> {
                   child: GenderIcon(
                     iconColor: maleColor,
                     genderIcon: FontAwesomeIcons.mars,
+                    gender: "MALE",
                   ),
                 ),
                 SizedBox(width: 5),
@@ -68,14 +70,15 @@ class _HomePageState extends State<HomePage> {
                       });
                     },
                     child: GenderIcon(
-                        iconColor: femaleColor,
-                        genderIcon: FontAwesomeIcons.venus)),
+                      iconColor: femaleColor,
+                      genderIcon: FontAwesomeIcons.venus,
+                      gender: "FEMALE",
+                    )),
               ],
             ),
             SizedBox(
               height: 30,
             ),
-            
             Container(
               margin: EdgeInsets.symmetric(horizontal: 34),
               width: width,
@@ -156,7 +159,8 @@ class _HomePageState extends State<HomePage> {
                                   });
                                 },
                                 child: CustomIcon(
-                                    whiteColor: whiteColor, icon: Icons.remove)),
+                                    whiteColor: whiteColor,
+                                    icon: Icons.remove)),
                           ],
                         )
                       ],
@@ -208,7 +212,8 @@ class _HomePageState extends State<HomePage> {
                                   });
                                 },
                                 child: CustomIcon(
-                                    whiteColor: whiteColor, icon: Icons.remove)),
+                                    whiteColor: whiteColor,
+                                    icon: Icons.remove)),
                           ],
                         ),
                       ],
@@ -232,4 +237,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
