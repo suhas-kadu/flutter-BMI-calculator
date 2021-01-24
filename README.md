@@ -10,7 +10,7 @@
 
 ## Screenshots
 ## Screenshots
-<img src="assets/screenshots/Screenshot1.png" width="250">  &emsp;  <img src="assets/screenshots/Screenshot2.png" width="250">
+<img src="assets/screenshots/Screenshot3.png" width="250">  &emsp;  <img src="assets/screenshots/Screenshot2.png" width="250">
 
 
 
