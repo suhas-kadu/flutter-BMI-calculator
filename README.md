@@ -8,7 +8,7 @@
 ### State management is also implemented
 ### Responsive UI for different mobile screens 
 
-## Screenshots
+
 ## Screenshots
 <img src="assets/screenshots/Screenshot3.png" width="250">  &emsp;  <img src="assets/screenshots/Screenshot2.png" width="250">
 
